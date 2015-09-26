@@ -1,4 +1,14 @@
 <?php 
+
+# File :	login.php
+# Description :file use to handle login singup html
+# Input	: Request Parameter
+# Output:NA
+# Author : pardeep  
+# Version : v1.0
+# Date :26-9-2015
+
+
 error_reporting(0);
 session_start();
 if($_SESSION['userid'])

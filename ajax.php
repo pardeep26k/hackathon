@@ -1,4 +1,13 @@
 <?php
+# File :	ajax.php
+# Description :File handle ajax request for singup likes links
+# Input	: Request Parameter
+# Output:NA
+# Author : pardeep  
+# Version : v1.0
+# Date :26-9-2015
+
+
 require_once('include/db.php');
 session_start();
 $dbObj = new db();

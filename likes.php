@@ -1,4 +1,13 @@
 <?php 
+# File :	likes.php
+# Description :file use to display user likes
+# Input	: Request Parameter
+# Output:NA
+# Author : pardeep  
+# Version : v1.0
+# Date :26-9-2015
+
+
 include('include/header.php');
 include_once("include/db.php");
 $db = new db();

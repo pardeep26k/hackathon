@@ -1,0 +1,95 @@
+/*
+ * Web factory ltd
+ * Created: 20/04/2015
+ */ 
+ 
+ // SidebarProfile
+ @SidebarProfile:#66CDAA;
+ 
+ // LogoContainer
+ @LogoContainer:#FFFFFF;
+ @LogoContainerH1:#2C3E50;
+ @LogoContainerH4:#2C3E50;
+ 
+ // Header BHar
+ @HeaderBar:#FFFFFF;
+ @HeaderBarIcons:#2C3E50;
+ @HeaderBarIconsHover:#f2f2f2;
+ @MenuBorderTop:#FFF;
+ 
+ // Sidebar Menu
+ @SidebarMenuBackgroundActive:#617283;
+ @SidebarMenuBackground:#778899;
+ @SidebarMenuColor:#FFFFFF;
+ 
+ 
+ .sidebar-profile {
+    background: @SidebarProfile;
+ }
+ 
+ .logo-container {
+   background: @LogoContainer;
+ }
+ 
+ .logo-container h1 {
+   color: @LogoContainerH1;
+ }
+ 
+ .logo-container h4 {
+   color: @LogoContainerH4;
+ }
+ 
+ .header-bar {
+   background: @HeaderBar;
+ }
+ 
+ .icon-list.hoverable>li>a:hover, .icon-list>li.open>a, ul.right-icons li.open a {
+   background: @HeaderBarIconsHover;
+ }
+ 
+ ul.left-icons>li>a>i {
+   color:@HeaderBarIcons;
+ }
+ 
+ .sidebar-profile {
+   border-bottom: 0px solid #d1d1d1;
+ }
+ 
+ .sidebar .menu {
+   border-top:1px solid @MenuBorderTop;
+ }
+ 
+ .sidebar .menu li a .menu-icon {
+   background: transparent;
+ }
+ 
+ .sidebar,
+ .sidebar .menu, 
+ .sidebar .menu li a {
+   background-color: @SidebarMenuBackground;
+   color:@SidebarMenuColor;
+ }
+ 
+ .sidebar .menu li.active a,
+ .sidebar .menu li a:hover {
+   background: @SidebarMenuBackgroundActive;
+ }
+ 
+ .sidebar .menu li a:hover .menu-icon i,
+ .sidebar .menu li.active a:hover .menu-icon i,
+ .sidebar .menu li.active a .menu-icon i,
+ .sidebar .menu li a .menu-icon i,
+ .sidebar .menu li a .menu-icon {
+   color:#ffffff;
+ }
+ 
+ .sidebar .menu li.parent>a:after,
+ .sidebar .menu li.parent.active>a:after, 
+ .sidebar .menu li.parent>a.close-child:after {
+   color: #ffffff;
+ }
+ 
+ .sidebar .child li,
+ .sidebar .child li:last-child {
+   border-color: @SidebarMenuBackgroundActive;
+ }

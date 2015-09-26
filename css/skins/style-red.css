@@ -1,0 +1,76 @@
+/*
+ * Web factory ltd
+ * Created: 20/04/2015
+ */ 
+ 
+ 
+ .sidebar-profile {
+    background: #FF4136;
+ }
+ 
+ .logo-container {
+   background: #FFFFFF;
+ }
+ 
+ .logo-container h1 {
+   color: #2C3E50;
+ }
+ 
+ .logo-container h4 {
+   color: #2C3E50;
+ }
+ 
+ .header-bar {
+   background: #fff;
+ }
+ 
+ .icon-list.hoverable>li>a:hover, .icon-list>li.open>a, ul.right-icons li.open a {
+   background: #f2f2f2;
+ }
+ 
+ ul.left-icons>li>a>i {
+   color:#2C3E50;
+ }
+ 
+ .sidebar-profile {
+   border-bottom: 0px solid #d1d1d1;
+ }
+ 
+ .sidebar .menu {
+   border-top:1px solid #fff;
+ }
+ 
+ .sidebar .menu li a .menu-icon {
+   background: transparent;
+ }
+ 
+ .sidebar,
+ .sidebar .menu, 
+ .sidebar .menu li a {
+   background-color: #FF4136;
+   color:#fff;
+ }
+ 
+ .sidebar .menu li.active a,
+ .sidebar .menu li a:hover {
+   background: #E0443A;
+ }
+ 
+ .sidebar .menu li a:hover .menu-icon i,
+ .sidebar .menu li.active a:hover .menu-icon i,
+ .sidebar .menu li.active a .menu-icon i,
+ .sidebar .menu li a .menu-icon i,
+ .sidebar .menu li a .menu-icon {
+   color:#ffffff;
+ }
+ 
+ .sidebar .menu li.parent>a:after,
+ .sidebar .menu li.parent.active>a:after, 
+ .sidebar .menu li.parent>a.close-child:after {
+   color: #ffffff;
+ }
+ 
+ .sidebar .child li,
+ .sidebar .child li:last-child {
+   border-color: #E0443A;
+ }

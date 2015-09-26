@@ -1,0 +1,28 @@
+/*
+ * Web factory ltd
+ * Created: 20/04/2015
+ */ 
+ 
+ 
+ .sidebar-profile {
+    background: rgb(108,181,0); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(108,181,0,1) 0%, rgba(143,200,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(108,181,0,1)), color-stop(100%,rgba(143,200,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, rgba(108,181,0,1) 0%,rgba(143,200,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, rgba(108,181,0,1) 0%,rgba(143,200,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, rgba(108,181,0,1) 0%,rgba(143,200,0,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg, rgba(108,181,0,1) 0%,rgba(143,200,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6cb500', endColorstr='#8fc800',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ }
+ 
+ .logo-container {
+   background: #9ED51C;
+ }
+ 
+ .header-bar {
+   background: #84C200;
+ }
+ 
+ .icon-list.hoverable>li>a:hover, .icon-list>li.open>a, ul.right-icons li.open a {
+   background: #9ED51C;
+ }

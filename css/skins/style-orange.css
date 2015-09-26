@@ -1,0 +1,40 @@
+/*
+ * Web factory ltd
+ * Created: 20/04/2015
+ */ 
+ 
+ 
+ .sidebar-profile {
+    background: rgb(255,168,76); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,168,76,1)), color-stop(100%,rgba(255,123,13,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ }
+ 
+ .logo-container {
+   background: #FF7C0F;
+ }
+ 
+ .logo-container h1 {
+   color: #fff;
+ }
+ 
+ .logo-container h4 {
+   color: #fff;
+ }
+ 
+ .header-bar {
+   background: #FFA041;
+ }
+ 
+ .icon-list.hoverable>li>a:hover, .icon-list>li.open>a, ul.right-icons li.open a {
+   background: #FF7C0F;
+ }
+ 
+ ul.left-icons>li>a>i {
+   color:#fff;
+ }

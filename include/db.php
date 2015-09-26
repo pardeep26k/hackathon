@@ -97,10 +97,10 @@ error_reporting(E_ERROR);
 		  $buffer = curl_exec($curl_handle);
 		  curl_close($curl_handle);
 		  if (empty($buffer)){
-			  print "Nothing returned from url.<p>";
+			  return  "Nothing returned from url.<p>";
 		  }
 		  else{
-			  print $buffer;
+			  return $buffer;
 		  }
 		
 		}

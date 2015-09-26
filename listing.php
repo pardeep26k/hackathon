@@ -14,7 +14,7 @@ $likesData=$db->GetUserLikes($_SESSION['userid']);
 while($row=mysql_fetch_array($likesData))
 {
 $KeywordSearch=$row['likename'];
-$getData=$db->GetDataByCurl($KeywordSearch);
+echo $getData=$db->GetDataByCurl($KeywordSearch);
 }
 ?>
  <!-- Title Bart Start -->

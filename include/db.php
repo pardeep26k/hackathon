@@ -78,5 +78,23 @@ error_reporting(E_ERROR);
 			return $this->result;
 		}
 		
+		function GetDataByCurl($keyword)
+		{
+		  $curl_handle=curl_init();
+		  echo $url='http://olx.in/ajax/search/list/?q='.$keyword;
+		  curl_setopt($curl_handle,CURLOPT_URL,$url);
+		  curl_setopt($curl_handle,CURLOPT_CONNECTTIMEOUT,2);
+		  curl_setopt($curl_handle,CURLOPT_RETURNTRANSFER,1);
+		  $buffer = curl_exec($curl_handle);
+		  curl_close($curl_handle);
+		  if (empty($buffer)){
+			  print "Nothing returned from url.<p>";
+		  }
+		  else{
+			  print $buffer;
+		  }
+		
+		}
+		
 	
 	}

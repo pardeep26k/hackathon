@@ -1,4 +1,13 @@
 <?php
+# File :	db.php
+# Description :file use to hand database and connetcion all db query related activity
+# Input	: Request Parameter
+# Output:NA
+# Author : pardeep  
+# Version : v1.0
+# Date :26-9-2015
+
+
 error_reporting(E_ERROR);
    class db
     {

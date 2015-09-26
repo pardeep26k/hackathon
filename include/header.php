@@ -1,4 +1,12 @@
 <?php
+# File :	header.php
+# Description :header file 
+# Input	: Request Parameter
+# Output:NA
+# Author : pardeep  
+# Version : v1.0
+# Date :26-9-2015
+
 session_start();
 if (!$_SESSION['userid'] ) {
 	header("Location: login.php");
